@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica,Arial,sans-serif;
+    
+}
+.hero{
+    
+   
+
+    
+ width: 1471px;
+    
+}
+nav{
+    display: flex;
+    overflow: inherit;
+
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background: black;
+    width: 1200px;
+    margin-left: 90px;
+    margin-right: 150px;
+    position: fixed;
+    z-index: 1;
+
+}
+.logo{
+    flex: 1;
+    width: 90px;
+    height: 90px;
+    margin-left: 1em;
+    cursor: pointer;
+
+}
+.hero-logo{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 20%;
+    min-width: 300px;
+    min-height: 130px;
+    max-height: 120px;
+    object-fit: contain;
+}
+
+
+ul li{
+    display: inline;
+    flex: 6;
+    
+}
+ul li a{
+    color: rgb(117, 116, 116);
+    text-decoration: none;
+    padding: 40px;
+}
+.icons{
+    flex: 5;
+    display:flex;
+    justify-content: end;
+    gap: 30px;
+    height: 30px;
+    width: 20px;
+    cursor: pointer;
+}
+.search{
+    border-color: gray;
+    border-width: 30px;
+    height: 10px;
+}
+.top:hover{
+    color: white;
+}
+ul li a:hover{
+    color: white;
+}
+
+
+.middle{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    overflow: hidden;
+
+    
+    z-index: 0;
+}
+.phn1{
+    aspect-ratio: auto 1470 / 734;    position: relative;
+    margin-left: -400px;
+   width: 900px;
+   margin-top: 30px;
+   height: 460.362;
+}
+h2{
+    font-size: 34px;
+    line-height: 1.25;
+    letter-spacing: -.025em;
+    margin-bottom: 21px;
+    font-family:sans-serif;
+}
+    
+
+.hed{
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+p{
+    font-size: 20px;
+    font-family: SupercellText-Regular,Helvetica,Arial,sans-serif;
+    margin: 0 0 30px;
+    line-height: 1.56;
+    color: rgb(59, 57, 57);
+
+}
+.btn img{
+    height: 47px;
+   width: auto;
+   margin-left: 20px;
+   cursor: pointer;
+}
+.second{
+    display: flex;
+    background-image: url("WhatsApp\ Image\ 2023-08-29\ at\ 12.32.28\ PM.jpeg");
+    background-repeat: no-repeat;
+    height: 574.36px;
+    width: 1471.2px;
+    overflow: hidden;
+   
+   
+    
+}
+.phn2{
+    /* aspect-ratio: auto 1470 / 734;   */
+ 
+ 
+   height:420.352px;
+   margin-top: 40px;
+  margin-right: -150px;
+  
+
+
+  
+
+}
+.hed2{
+    font-size: 14px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: rgb(250, 243, 243);
+}
+.hed2 p{
+    color: aliceblue;
+
+}
+.hed2 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.mini{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   background-color:rgb(40, 135, 240);
+    width: 100%;
+    height: 200px;
+   margin-top: -80.5px;
+
+}
+.pekka{
+    margin-bottom: 5;
+    width: 200px;
+margin-left: -200px;
+}
+
+button{
+    margin-left: 100px;
+    padding: 14px;
+    border-radius: 10px;
+    color: rgb(10, 10, 10);
+    background: white;
+    border: none;
+    margin-right: 100px;
+}
+.mini h1{
+    color: aliceblue;
+}
+.footer{
+    background: #000;
+    height: 500px;
+    color: aliceblue;
+}
+
+.line{
+    border: 3px;
+    color: aliceblue;
+}
+.footer{
+    padding: 20px;
+   
+}
+.follow{
+    margin-left: 0px;
+    height: 29.25px;
+
+}
+.follow h5{
+    margin-bottom:  20px;
+}
+.follow img{
+    margin-left: 10px;
+}
+.btn2{
+margin-left: 1100px;
+margin-bottom: 20px;
+display: flex;
+
+
+}
+.terms{
+    display: flex;
+    margin-left: 110px;
+    gap: 40px;
+    margin-top: 40px;
+    color: aliceblue;
+}
+.last{
+    font: SupercellText-Medium, Helvetica, Arial, sans-serif;
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 13px;
+    
+}
+.llogo{
+    display: flex;
+    justify-content: end;
+    margin-left: -200px;
+    margin-top: -80px;
+    height: 43.725px;
+    width: 100%;
+}
+.myclass{
+    font-family: SupercellText-Regular,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+   
+    
+   
+    
+
+}
+.imgs{
+    height: 20px;
+    width: 23px;
+   
+  
+}
+.us{
+   margin-left: 10px;
+}
+.appstore{
+    margin-left: -535px;
+    padding-right: 20px;
+    
+
+}
+.appstore:hover{
+    cursor: pointer;
+
+}
+.playstore:hover{
+    cursor: pointer;
+}
+.app{
+    height: 50px;
+    width: 148.475;
+}
+.play{
+    height: 50px;
+    width: 148.475;
+
+}.border{
+    
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 890;
+    margin-left: 200px;
+
+}
+.dragon{
+   
+width: 1471.2px;
+}
+.searchicon{
+    height: 16px;
+    width: 16px;
+   margin-right:20px;
+   margin-top: 4px;
+}
+.he:hover{
+    cursor: pointer;
+
+}
