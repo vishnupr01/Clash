@@ -5,6 +5,9 @@
     font-family: Helvetica,Arial,sans-serif;
     
 }
+.main{
+  overflow: hidden;
+}
 .hero{
     
    
@@ -140,9 +143,11 @@ p{
     /* aspect-ratio: auto 1470 / 734;   */
  
  
-   height:420.352px;
+  height:420.352px;
    margin-top: 40px;
-  margin-right: -150px;
+   position: relative;
+   left: 250px;
+  
   
 
 
@@ -151,7 +156,8 @@ p{
 }
 .hed2{
     font-size: 14px;
-    margin-left: 100px;
+ position: relative;
+ left: 100px;
     margin-top: 50px;
     color: rgb(250, 243, 243);
 }
